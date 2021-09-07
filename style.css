@@ -1,0 +1,55 @@
+h1{
+    color:red
+}
+
+body{
+    margin : 0px;
+    background-color: #f7f2f2;
+}
+
+.header{
+    display : flex;
+    justify-content : space-between;
+    padding : 50px;
+    padding-left : 50px;
+}
+
+img{
+    border : 2px black solid;
+    border-radius : 15px
+}
+
+
+.animals{
+    display : flex;
+    flex-wrap: wrap;
+    justify-content : space-evenly;
+    margin : 100px
+}
+
+.animals img{
+    border : 2px solid #000000;
+    border-radius: 50px
+}
+
+.origami{
+    border-radius: 20px;
+    background-color: paleturquoise;
+    width : 310px;
+    font-family : fantasy
+}
+
+p,h3{
+    text-align: center;
+}
+
+.menu{
+    display : flex;
+    justify-content: space-between;
+    background-color: yellow;
+    padding : 15px;
+    font-size : 20px;
+    font-family: sans-serif;
+    font-weight : 400;
+    color : #ffffff
+}
